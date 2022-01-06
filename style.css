@@ -92,3 +92,33 @@ section{
 .text-area p {
     font-size: 14px;
 }
+
+
+.corona-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.corona-app .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corona-app .yellow {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(241, 190, 22);
+}
+
+.corona-app-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#corona-app-image img {
+    height: 700px;
+    width: 400px;
+}
