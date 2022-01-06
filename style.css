@@ -24,4 +24,33 @@ section{
     padding: 9px 20px;
     font-weight: 700;
     border-radius: 5px;
+    font-size: 14px;
+}
+.experience-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-items {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px;
+}
+
+.half-width {
+    border-radius: 15px;
+    margin: 0 15px;
+}
+
+#experience-item-1 {
+    background-color: rgba(127, 255, 212, 0.356);
+}
+
+#experience-item-2 {
+    background-color: rgba(255, 192, 203, 0.753);
+}
+
+#experience-item-3 {
+    background-color: rgba(228, 190, 109, 0.651);
 }
