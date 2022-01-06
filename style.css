@@ -54,3 +54,41 @@ section{
 #experience-item-3 {
     background-color: rgba(228, 190, 109, 0.651);
 }
+
+.details-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.image-area {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.details-image.shape {
+    width: 300px;
+    height: 300px;
+}
+
+.details-picture-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.picture1 {
+    position: absolute;
+    left: 40px;
+}
+
+.text-area {
+    flex: 7;
+}
+
+.text-area p {
+    font-size: 14px;
+}
