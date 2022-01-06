@@ -122,3 +122,27 @@ section{
     height: 700px;
     width: 400px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    margin-bottom: 0;
+    font-family: 'Script MT';
+    font-size: 22px;
+}
+
+footer h1 span {
+    color: rgb(247, 53, 53);
+}
+
+footer p {
+    font-size: 8px;
+    color: rgb(172, 170, 170);
+}
